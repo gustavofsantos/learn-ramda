@@ -1,11 +1,7 @@
-# Jest Scratchpad
+# Learn Ramda!
 
-Use `jest` with `typescript` as a scratchpad!
+This repository contains a walkthrough with a bunch of examples using Ramda. It is divided in some chapters with meaningful explanations and a bunch of examples of how to use Ramda.
 
-## Running
+## Index
 
-Crack open you terminal and run:
-
-```
-$ yarn test
-```
+- [Composing Functions](01-composing-functions/README.md)
