@@ -5,6 +5,7 @@ specifiers:
   '@babel/preset-env': ^7.14.0
   '@babel/preset-typescript': ^7.13.0
   '@types/jest': ^26.0.23
+  '@types/ramda': ^0.27.44
   babel-jest: ^26.6.3
   jest: ^26.6.3
   prettier: ^2.2.1
@@ -20,6 +21,7 @@ dependencies:
 
 devDependencies:
   '@types/jest': 26.0.24
+  '@types/ramda': 0.27.44
   prettier: 2.3.2
 
 packages:
@@ -1479,6 +1481,12 @@ packages:
   /@types/prettier/2.3.2:
     resolution: {integrity: sha512-eI5Yrz3Qv4KPUa/nSIAi0h+qX0XyewOliug5F2QAtuRg6Kjg6jfmxe1GIwoIRhZspD1A0RP8ANrPwvEXXtRFog==}
     dev: false
+
+  /@types/ramda/0.27.44:
+    resolution: {integrity: sha512-SlEHKcLG36PlU+rLJwp8p4dpC9Hp/LiH6n0REX2m4iEB15PWe1qKQzgNSZrYKhTHDFvkeEM/F2gcYwfighsEuQ==}
+    dependencies:
+      ts-toolbelt: 6.15.5
+    dev: true
 
   /@types/stack-utils/2.0.1:
     resolution: {integrity: sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==}
@@ -4214,6 +4222,10 @@ packages:
     dependencies:
       punycode: 2.1.1
     dev: false
+
+  /ts-toolbelt/6.15.5:
+    resolution: {integrity: sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==}
+    dev: true
 
   /type-check/0.3.2:
     resolution: {integrity: sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=}
